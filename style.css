@@ -1,0 +1,15 @@
+h1 {
+    background-color: #87AE73;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+a:link,
+a:visited {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+
+a:hover {
+    background-color: lightcoral;
+}

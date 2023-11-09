@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Form</title>
+    <link rel="shortcut icon" href="https://em-content.zobj.net/source/apple/354/memo_1f4dd.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>XYZ Diagnostic Center</h1>
+    <p>#1-2-345/67, Street No. 890, Random Nagar, Hyderabad - 500001</p>
+    <h2>CUSTOMER FEEDBACK FORM</h2>
+
+    <form action="#">
+        <!-- Branch Selection -->
+        <label for="branch">Branch</label>
+        <select name="branch" id="branch">
+            <option value="A" selected>Main Branch - A, A Colony - 400001</option>
+            <option value="B">B, Vizag Nagar - 400007</option>
+            <option value="C">C, Mirajguda - 600081</option>
+        </select>
+
+
+        <p>
+            <!-- Form No -->
+            <label for="formNO">Form No</label>
+            <input type="number" name="formNO" id="formNO" min="100" required>
+
+            <!-- Date -->
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required>
+        </p>
+
+        <table>
+            <tr>
+                <th>A</th>
+                <th>OFFICE RECEPTION</th>
+                <th>EXCELLENT</th>
+                <th>GOOD</th>
+                <th>AVG</th>
+                <th>POOR</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><label for="Q1.1">Receptionist attended to you promptly and provided right information</label></td>
+                <td><input type="radio" name="Q1.1" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q1.1" id="GOOD" required></td>
+                <td><input type="radio" name="Q1.1" id="AVG" required></td>
+                <td><input type="radio" name="Q1.1" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><label for="Q1.2">Waiting time at the desk for registration</label></td>
+                <td><input type="radio" name="Q1.2" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q1.2" id="GOOD" required></td>
+                <td><input type="radio" name="Q1.2" id="AVG" required></td>
+                <td><input type="radio" name="Q1.2" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><label for="Q1.3">Counselling provided for pre-invesigation preparation if required.</label></td>
+                <td><input type="radio" name="Q1.3" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q1.3" id="GOOD" required></td>
+                <td><input type="radio" name="Q1.3" id="AVG" required></td>
+                <td><input type="radio" name="Q1.3" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td><label for="Q1.4">Queries on credit payment, reimbursements/claims were answered
+                        satisfactorily.</label></td>
+                <td><input type="radio" name="Q1.4" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q1.4" id="GOOD" required></td>
+                <td><input type="radio" name="Q1.4" id="AVG" required></td>
+                <td><input type="radio" name="Q1.4" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <th>B</th>
+                <th>DIAGNOSTIC SERVICES</th>
+                <th>EXCELLENT</th>
+                <th>GOOD</th>
+                <th>AVG</th>
+                <th>POOR</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><label for="Q2.1">Waiting time for lab tests / Radiology tests</label></td>
+                <td><input type="radio" name="Q2.1" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q2.1" id="GOOD" required></td>
+                <td><input type="radio" name="Q2.1" id="AVG" required></td>
+                <td><input type="radio" name="Q2.1" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><label for="Q2.2">Comfort during procedure</label></td>
+                <td><input type="radio" name="Q2.2" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q2.2" id="GOOD" required></td>
+                <td><input type="radio" name="Q2.2" id="AVG" required></td>
+                <td><input type="radio" name="Q2.2" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <th>C</th>
+                <th>OVERALL EXPERIENCE</th>
+                <th>EXCELLENT</th>
+                <th>GOOD</th>
+                <th>AVG</th>
+                <th>POOR</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><label for="Q3.1">Waiting time for lab tests / Radiology tests</label></td>
+                <td><input type="radio" name="Q3.1" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q3.1" id="GOOD" required></td>
+                <td><input type="radio" name="Q3.1" id="AVG" required></td>
+                <td><input type="radio" name="Q3.1" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><label for="Q3.2">Comfort during procedure</label></td>
+                <td><input type="radio" name="Q3.2" id="EXCELLENT" required></td>
+                <td><input type="radio" name="Q3.2" id="GOOD" required></td>
+                <td><input type="radio" name="Q3.2" id="AVG" required></td>
+                <td><input type="radio" name="Q3.2" id="POOR" required></td>
+            </tr>
+
+            <tr>
+                <th colspan="6"><label for="feedback_text">How can XYZ Diagonistic Centre serve you better?</label></th>
+            </tr>
+
+            <tr>
+                <td colspan="6">
+                    <textarea name="feedback_text" id="feedback_text" cols="30" rows="10"
+                        style="width: 765px; height: 176px;" required></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="6"><label for="reffered">How did you come to know about XYZ Diagonistic Centre?</label>
+                </th>
+            </tr>
+
+            <tr>
+                <td colspan="6">
+                    <input type="radio" name="reffered" id="doctor" required>
+                    <label for="doctor">Referred by Doctor</label>
+
+                    <input type="radio" name="reffered" id="friends" required>
+                    <label for="friends">Friends</label>
+
+                    <input type="radio" name="reffered" id="relatives" required>
+                    <label for="relatives">Relatives</label>
+
+                    <input type="radio" name="reffered" id="others" required>
+                    <label for="others">Others</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Personal Information</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" maxlength="30" required>
+                    <br>
+
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" required>
+                    <br>
+
+                    <label for="mobile">Mobile</label>
+                    <input type="number" name="mobile" id="mobile" minlength="10" maxlength="10" required>
+                    <br>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
